@@ -1,8 +1,13 @@
+
 body {
     margin: 0px;
+    background-image: url(../JonesTennis/images/lightblue.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-container{
+container {
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -17,9 +22,15 @@ container{
     display: flex; 
 }
 
-.right-side{
-  display: flex;  
-  text-indent: 100px;
+.contact-wrapper{
+    margin-right: px;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: black;
+}
+
+p {
+    text-align: right;
 }
 
 .nav-wrapper > .left-side > div {
@@ -35,7 +46,7 @@ container{
 }
 
 .nav-link-wrapper a {
-    color: lightblue;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     transition: color 0.5s;
 }
@@ -48,8 +59,15 @@ container{
     color: black;
 }
 
-.content-wrapper {
-    display: flex;
-    justify-content: space-between;
-    padding: 38px;
+.contact-us {
+    text-align: center;
 }
+
+.contact-text{
+    text-align: center;
+}
+
+.contact-wrapper {
+    text-align: right;
+}
+
