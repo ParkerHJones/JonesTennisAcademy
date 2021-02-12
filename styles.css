@@ -7,9 +7,10 @@ body {
     background-repeat: no-repeat;
 }
 
-container {
+.container {
     display: grid;
     grid-template-columns: 1fr;
+    text-align: left;
 }
 
 .nav-wrapper {
