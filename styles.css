@@ -10,14 +10,14 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     text-align: left;
 }
 
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 38px; 
+    padding: 30px; 
 }
 
 .left-side {
@@ -25,23 +25,20 @@ body {
     
 }
 
-.contact-wrapper{
-    
-}
 
 /* p {
     text-align: right;
 } */
 
 .nav-wrapper > .left-side > div {
-    margin-right: 20px;
+    margin-right: 50px;
     font-size: 1.3em;
     text-transform: uppercase;
     
 } 
 
 .nav-link-wrapper {
-    height: 22px;
+    height: 28px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
     
@@ -75,13 +72,52 @@ body {
 }
 
 .contact-wrapper {
-    text-align: right;
+    top: 0;
+    right: 0;
+    padding: 0px;
 }
 
 .introduction {
     text-align: center;
     font-size: 32px;
 }
+
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 10px;
+    padding: 0 25px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
 
   
  
