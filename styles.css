@@ -1,10 +1,11 @@
 
 body {
     margin: 0px;
-    background-image: url(../JonesTennis/images/lightblue.jpg);
-    background-size: cover;
+    /* background-image: url(../JonesTennis/images/lightblue.jpg); */
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #91CDD7;
 }
 
 .container {
@@ -21,47 +22,52 @@ body {
 
 .left-side {
     display: flex; 
+    
 }
 
 .contact-wrapper{
-    margin-right: px;
-    font-size: 1em;
-    text-transform: uppercase;
-    color: black;
+    
 }
 
-p {
+/* p {
     text-align: right;
-}
+} */
 
 .nav-wrapper > .left-side > div {
     margin-right: 20px;
     font-size: 1.3em;
     text-transform: uppercase;
+    
 } 
 
 .nav-link-wrapper {
     height: 22px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
+    
 }
 
 .nav-link-wrapper a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     transition: color 0.5s;
+    
 }
 
 .nav-link-wrapper:hover {
     border-bottom: 1px solid black;
+    
 }
 
 .nav-link-wrapper a:hover {
     color: black;
+    text-align: center;
 }
 
 .contact-us {
     text-align: center;
+    color: black;
+
 }
 
 .contact-text{
@@ -72,3 +78,14 @@ p {
     text-align: right;
 }
 
+.introduction {
+    text-align: center;
+    font-size: 32px;
+}
+
+  
+ 
+
+  
+
+  
