@@ -64,11 +64,13 @@ body {
 .contact-us {
     text-align: center;
     color: black;
+    font-size: 28px;
 
 }
 
 .contact-text{
     text-align: center;
+    font-size: 18px;
 }
 
 .contact-wrapper {
@@ -116,6 +118,20 @@ body {
 
 .title {
     color: grey;
+}
+
+.photo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    width: 50%;
+    height: 50%; 
+}
+
+.header {
+    text-align: center; 
+    padding-bottom: 100px;
+    font-size: 24px; 
 }
 
 
