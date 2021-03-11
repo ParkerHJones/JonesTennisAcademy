@@ -112,6 +112,7 @@ body {
 /* Some left and right padding inside the container */
 .container {
     padding: 0 16px;
+    font-size: 30px;
 }
 
 /* Clear floats */
@@ -123,7 +124,7 @@ body {
 
 .title {
     color: grey;
-    font-size: 28px; 
+    font-size: 22px; 
 }
 
 .photo {
