@@ -14,7 +14,6 @@ body {
     display: grid;
     grid-template-columns: 2fr;
     text-align: left;
-    font-size: 28px;
 }
 
 .nav-wrapper {
@@ -124,6 +123,7 @@ body {
 
 .title {
     color: grey;
+    font-size: 28px; 
 }
 
 .photo {
