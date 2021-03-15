@@ -87,10 +87,10 @@ body {
     object-fit: cover;
 }
 
-/* .introduction {
+.introduction {
     text-align: center;
     font-size: 32px;
-} */
+}
 
 .column {
     float: none;
@@ -138,9 +138,7 @@ body {
 
 .header {
     text-align: center; 
-    padding-bottom: 50px;
-    padding-top: 50px;
-    font-size: 28px; 
+    font-size: 32px;  
 }
 
 .lessons {
