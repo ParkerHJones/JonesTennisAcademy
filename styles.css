@@ -192,6 +192,5 @@ body {
 
 .logo {
     width: 100%; 
-    display: absolute; 
-    padding-left: 10px; 
+    display: block; 
 }
