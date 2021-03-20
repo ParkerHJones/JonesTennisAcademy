@@ -191,6 +191,5 @@ body {
 }  
 
 .logo {
-    width: 100%; 
-    display: block; 
+    display: flex; 
 }
