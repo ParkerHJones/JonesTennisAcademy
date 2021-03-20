@@ -81,10 +81,6 @@ body {
 
 .contact-wrapper {
     display: flex;
-    margin-left: auto;
-    margin-right: auto; 
-    width: 10%; 
-    object-fit: cover;
 }
 
 .introduction {
