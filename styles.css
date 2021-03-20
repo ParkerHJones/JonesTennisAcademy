@@ -191,5 +191,5 @@ body {
 }  
 
 .logo {
-    display: flex; 
+    display: inline-block; 
 }
