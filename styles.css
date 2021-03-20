@@ -81,6 +81,8 @@ body {
 
 .contact-wrapper {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .introduction {
