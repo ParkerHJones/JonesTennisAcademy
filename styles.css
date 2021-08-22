@@ -197,3 +197,18 @@ body {
 .coachName {
     font-size: 40px; 
 }
+
+.hannahDescription {
+    font-size: 40px; 
+}
+
+.coachHannah {
+    font-size: 40px; 
+}
+
+.hannah {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%; 
+}
